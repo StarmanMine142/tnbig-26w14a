@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "tnbig",
+	"version": "${version}",
+	"name": "Translatable no blocks in group massage",
+	"description": "Make message \"Selected group contains no blocks in the area\" translatable!",
+	"authors": [
+		"StarmanMine142"
+	],
+	"contact": {
+	},
+	"license": "MIT",
+	"icon": "assets/tnbig/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"starman.tnbig.TranslatableNoBlocksInGroup"
+		]
+	},
+	"mixins": [
+		"tnbig.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "26.1.1-alpha.26.14.a",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
